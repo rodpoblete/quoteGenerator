@@ -1,0 +1,29 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#quotebox {
+	border-color: green;
+	border-style: solid;
+}
+
+.fila-citas {
+	margin-top: 20%;
+}
+
+#btn-qt {
+	position: relative;
+	left: 60%;
+}
+
+#btn-tumblr {
+	position: relative;
+	left: 15%;
+}
+
+#btn-twitter {
+	position: relative;
+	left: 15%;
+}
