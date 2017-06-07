@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 
+/*TODO cambiar estilo del cuadro  ADD bordes y sombreado*/
 #quotebox {
 	border-color: green;
 	border-style: solid;
