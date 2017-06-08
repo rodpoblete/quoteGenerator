@@ -34,8 +34,6 @@ footer {
 	color: #ff781e;
 }
 
-
-
 #btn-qt {
 	position: relative;
 	left: 20%;
@@ -59,4 +57,17 @@ footer {
 	color: #ffffff;
 	background: #ff781e;
 	border: none;
+}
+
+.firma {
+	text-align: center;
+	padding-top: 1%;
+}
+
+.fa-heart {
+	color: red;
+}
+
+#autor {
+	color: white;
 }
