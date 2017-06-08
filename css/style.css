@@ -4,27 +4,59 @@
 	box-sizing: border-box;
 }
 
-/*TODO cambiar estilo del cuadro  ADD bordes y sombreado*/
+body {
+	background-color: #ff781e;
+}
+
 #quotebox {
-	border-color: green;
-	border-style: solid;
+	background-color: #ffffff;
+	border-radius: 4px;
+	padding-bottom: 3%;
+	text-align: center;
 }
 
 .fila-citas {
 	margin-top: 20%;
 }
 
+blockquote {
+	/*text-align: justify;*/
+	color: #ff781e;
+	border-left: none; /* Elimina la barra gris que trae el css de BT por defecto */
+}
+
+cite {
+	color: #ff781e;
+}
+
+footer {
+	text-align: right;
+	color: #ff781e;
+}
+
+
+
 #btn-qt {
 	position: relative;
-	left: 50%;
+	left: 20%;
+	color: #ffffff;
+	background: #ff781e;
+	border: none;
+	font-weight: bold;
 }
 
 #btn-tumblr {
 	position: relative;
-	left: 15%;
+	left: -15%;
+	color: #ffffff;
+	background: #ff781e;
+	border: none;
 }
 
 #btn-twitter {
 	position: relative;
-	left: 15%;
+	left: -15%;
+	color: #ffffff;
+	background: #ff781e;
+	border: none;
 }
