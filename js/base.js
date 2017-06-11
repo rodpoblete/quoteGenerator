@@ -33,6 +33,9 @@ $(document).ready(function () {
 	$('#btn-twitter').on("click", function () {
 		window.open('https://twitter.com/intent/tweet?text= ' + quotes[rand][0] + " - " + quotes[rand][1]);
 	});
+	$('#btn-tumblr').on("click", function () {
+		window.open('https://www.tumblr.com/login');
+	})
 });
 
 
